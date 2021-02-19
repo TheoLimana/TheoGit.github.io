@@ -6,15 +6,120 @@
     <meta name="description" content="Portfolio d'amélia Pilou-BTS SIO SLAM">
     <meta name="author" content="Théo Limana">
     <link rel="icon" href="favicon.ico">
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+
+
+
+
+
 
     <title>Hello, world!</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
-
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <div class="container"> 
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                    data-target="#navbar" aria-controls="navbar">
+                <span class="sr-only">Navigation raccourcie</span>☰
+            </button>
+            <a class="navbar-brand" href="#">Mon portfolio</a>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active nav-item">
+                        <a href="index.html" class="nav-link">
+                            <span class="fa fa-home"></span> Accueil
+                        </a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="cv.html" class="nav-link">
+                            <span class="fa fa-id-badge"></span> CV
+                        </a>
+                    </li> 
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link"
+                            data-toggle="dropdown" role="button">
+                            <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
+                        </a> 
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation" class="dropdown-header dropdown-item">
+                                En autonomie</li>
+                            <li role="presentation" class="dropdown-item">
+                                <a role="menuitem" href="#">Application Android</a>
+                            </li>
+                            <li role="presentation" class="dropdown-item">
+                                <a role="menuitem" href="#">Site web</a>
+                            </li>
+                            <li role="presentation" class="dropdown-item">
+                                <a role="menuitem" href="#">Études et analyses</a>
+                            </li>
+                            <li role="presentation" class="dropdown-divider"></li>
+                            <li role="presentation" class="dropdown-header dropdown-item">
+                             En entreprise</li>
+                            <li role="presentation" class="dropdown-item">
+                                <a role="menuitem" href="#">Projet de 1ère année</a>
+                            </li>
+                            <li role="presentation" class="dropdown-item">
+                                <a role="menuitem" href="#">Projet de 2ème année</a>
+                            </li>
+                            </ul>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a href="#" class="dropdown-toggle nav-link"
+                                    data-toggle="dropdown" role="button">
+                                   <span class="fa fa-graduation-cap"></span>
+                                   Jury E4 BTS SIO
+                                   <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="dropdown-header dropdown-item" role="presentation">
+                                        Documentations contexte</li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Présentation</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Application</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Missions à réaliser</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Annexes</a></li>
+                                    <li role="presentation" class="dropdown-divider"></li>
+                                    <li role="presentation" class="dropdown-header dropdown-item">
+                                        Fiches d'examen</li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Situation professionnelle n°1</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Situation professionnelle n°2</a></li>
+                                    <li role="presentation" class="dropdown-divider"></li>
+                                    <li role="presentation" class="dropdown-header dropdown-item">
+                                        Démonstrations</li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Démo SP n°1</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Démo SP n°2</a></li>
+                                    <li role="presentation" class="dropdown-divider"></li>
+                                    <li role="presentation" class="dropdown-header dropdown-item">
+                                        Codes sources</li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Sources SP n°1</a></li>
+                                    <li role="presentation" class="dropdown-item">
+                                        <a role="menuitem" href="#">Sources SP n°2</a></li>
+                                </ul>
+                            </li> 
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"><span class="fa fa-envelope"></span>
+                                    Me contacter
+                                </a>
+                            </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>

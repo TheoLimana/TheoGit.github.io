@@ -68,9 +68,9 @@ body { padding-top: 50px; }
 .meContacter { clear: both; }
 .meContacter .details { width: 100%; margin-left: 10px; margin-top: 3px; font-size: 1.5em;
                         font-weight: 700; justify-content: space-between;}
-.contact-icon { filter: grayscale(1); -webkit-filter: grayscale(1);
-                -moz-filter: grayscale(1); -ms-filter: grayscale(1);
-                -o-filter: grayscale(1); height: 32px; width: 32px; margin: 2px 0; }
+.contact-icon { filter: redscale(1); -webkit-filter: redscale(1);
+                -moz-filter: redscale(1); -ms-filter: redscale(1);
+                -o-filter: redscale(1); height: 32px; width: 32px; margin: 2px 0; }
 .meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
 .meContacter a:hover>img { filter: grayscale(0); -webkit-filter: grayscale(0);
                            -moz-filter: grayscale(0); -ms-filter: grayscale(0);
@@ -98,3 +98,9 @@ body { padding-top: 50px; }
 #competences .container .classement3 { background-position: 0 -56px; }
 #competences .container .classement4 { background-position: 0 -28px; }
 #competences .container .classement5 { background-position: 0 0px; }
+
+
+.grey{
+    height: 300px;
+    background-color: grey;
+}
